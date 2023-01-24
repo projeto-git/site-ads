@@ -1,0 +1,29 @@
+#main-more-info{
+    min-height: 100vh;
+    padding-top: 70px;
+    #information-section{
+       #shadow-info{
+         background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.64) ,black); 
+         width: 100%;
+         height: 32vh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+             div {
+                 h1{
+                     font-size: 3.5rem;
+                     color: $white;
+                 }
+             }
+       } 
+       #presentation-section{
+        background-image: url(../../images/backgroud-image-more-info.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        height: 32vh;
+       } 
+    }
+}
+table {
+    margin: 0 auto;
+}

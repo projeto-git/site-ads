@@ -18,49 +18,48 @@ header nav ul li a {
   color: #ffffff;
 }
 
-main {
+#home-page-section {
   background-image: url(../../images/backgroud-image.jpg);
   background-position: right;
   background-size: cover;
   background-clip: border-box;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
-  padding-top: 70px;
 }
-main #shadow {
-  height: 90vh;
+#home-page-section #shadow {
+  height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
   display: flex;
 }
-main #shadow section {
+#home-page-section #shadow section {
   width: 1000px;
   height: 250px;
-  margin-top: 120px;
+  margin-top: 220px;
   padding: 20px;
   color: #ffffff;
 }
-main #shadow section #info {
+#home-page-section #shadow section #info {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main #shadow section #info h1 {
+#home-page-section #shadow section #info h1 {
   font-size: 45px;
 }
-main #shadow section #info #logo {
+#home-page-section #shadow section #info #logo {
   height: 200px;
   padding-bottom: 30px;
 }
-main #shadow section #info #logo img {
+#home-page-section #shadow section #info #logo img {
   height: 140px;
 }
-main #shadow section #info #text-home-page {
+#home-page-section #shadow section #info #text-home-page {
   width: 650px;
 }
-main #shadow section p {
+#home-page-section #shadow section p {
   font-size: 20px;
 }
-main #shadow section button {
+#home-page-section #shadow section button {
   margin-top: 30px;
   width: 150px;
   height: 40px;
@@ -72,10 +71,37 @@ main #shadow section button {
   cursor: pointer;
   transition: 1s;
 }
-main #shadow section button:hover {
+#home-page-section #shadow section button:hover {
   border: 2px solid #ffffff;
   background-color: #ffffff;
   color: #111D4A;
+}
+
+#main-more-info {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+#main-more-info #information-section #shadow-info {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
+  width: 100%;
+  height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-more-info #information-section #shadow-info div h1 {
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+#main-more-info #information-section #presentation-section {
+  background-image: url(../../images/backgroud-image-more-info.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 32vh;
+}
+
+table {
+  margin: 0 auto;
 }
 
 * {
