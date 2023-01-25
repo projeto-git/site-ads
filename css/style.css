@@ -81,7 +81,7 @@ header nav ul li a {
   min-height: 100vh;
   padding-top: 70px;
 }
-#main-more-info #information-section #shadow-info {
+#main-more-info #shadow-info {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
   width: 100%;
   height: 32vh;
@@ -89,19 +89,67 @@ header nav ul li a {
   align-items: center;
   justify-content: center;
 }
-#main-more-info #information-section #shadow-info div h1 {
+#main-more-info #shadow-info div h1 {
   font-size: 3.5rem;
   color: #ffffff;
 }
-#main-more-info #information-section #presentation-section {
+#main-more-info #presentation-section {
   background-image: url(../../images/backgroud-image-more-info.jpg);
   background-size: cover;
   background-attachment: fixed;
   height: 32vh;
 }
-
-table {
-  margin: 0 auto;
+#main-more-info #information-section {
+  padding: 20px;
+}
+#main-more-info #information-section section {
+  padding: 5px;
+}
+#main-more-info #information-section section #forms-access {
+  height: 100px;
+}
+#main-more-info #information-section section #forms-access p {
+  border: 1px solid #111D4A;
+  padding: 10px;
+}
+#main-more-info #information-section section table {
+  height: 250px;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 100%;
+}
+#main-more-info #information-section section table tr {
+  border: 1px solid #111D4A;
+}
+#main-more-info #information-section section table .blue {
+  background-color: #2D82B7;
+  color: #ffffff;
+}
+#main-more-info #information-section section table td {
+  padding: 5px;
+}
+#main-more-info #information-section section h2 {
+  background-color: #111D4A;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+#main-more-info #curriculum-matrix-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+#main-more-info #curriculum-matrix-section div img {
+  height: 580px;
+}
+#main-more-info #link-more-info div p {
+  margin: 10px;
+  font-size: 16px;
+}
+#main-more-info #link-more-info div p a {
+  color: #111D4A;
 }
 
 * {
