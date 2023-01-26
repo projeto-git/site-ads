@@ -4,6 +4,7 @@ header {
   width: 100%;
   height: 10vh;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.575);
+  position: fixed;
 }
 header nav ul {
   display: flex;
@@ -17,48 +18,48 @@ header nav ul li a {
   color: #ffffff;
 }
 
-main {
+#home-page-section {
   background-image: url(../../images/backgroud-image.jpg);
   background-position: right;
   background-size: cover;
   background-clip: border-box;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
 }
-main #shadow {
-  height: 90vh;
+#home-page-section #shadow {
+  height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
   display: flex;
 }
-main #shadow section {
+#home-page-section #shadow section {
   width: 1000px;
   height: 250px;
-  margin-top: 120px;
+  margin-top: 220px;
   padding: 20px;
   color: #ffffff;
 }
-main #shadow section #info {
+#home-page-section #shadow section #info {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main #shadow section #info h1 {
+#home-page-section #shadow section #info h1 {
   font-size: 45px;
 }
-main #shadow section #info #logo {
+#home-page-section #shadow section #info #logo {
   height: 200px;
   padding-bottom: 30px;
 }
-main #shadow section #info #logo img {
+#home-page-section #shadow section #info #logo img {
   height: 140px;
 }
-main #shadow section #info #text-home-page {
+#home-page-section #shadow section #info #text-home-page {
   width: 650px;
 }
-main #shadow section p {
+#home-page-section #shadow section p {
   font-size: 20px;
 }
-main #shadow section button {
+#home-page-section #shadow section button {
   margin-top: 30px;
   width: 150px;
   height: 40px;
@@ -67,6 +68,88 @@ main #shadow section button {
   border: none;
   color: #ffffff;
   box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.418);
+  cursor: pointer;
+  transition: 1s;
+}
+#home-page-section #shadow section button:hover {
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  color: #111D4A;
+}
+
+#main-more-info {
+  min-height: 100vh;
+  padding-top: 70px;
+}
+#main-more-info #shadow-info {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
+  width: 100%;
+  height: 32vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#main-more-info #shadow-info div h1 {
+  font-size: 3.5rem;
+  color: #ffffff;
+}
+#main-more-info #presentation-section {
+  background-image: url(../../images/backgroud-image-more-info.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 32vh;
+}
+#main-more-info #information-section {
+  padding: 20px;
+}
+#main-more-info #information-section section {
+  padding: 5px;
+}
+#main-more-info #information-section section #forms-access {
+  height: 100px;
+}
+#main-more-info #information-section section #forms-access p {
+  border: 1px solid #111D4A;
+  padding: 10px;
+}
+#main-more-info #information-section section table {
+  height: 250px;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 100%;
+}
+#main-more-info #information-section section table tr {
+  border: 1px solid #111D4A;
+}
+#main-more-info #information-section section table .blue {
+  background-color: #2D82B7;
+  color: #ffffff;
+}
+#main-more-info #information-section section table td {
+  padding: 5px;
+}
+#main-more-info #information-section section h2 {
+  background-color: #111D4A;
+  color: #ffffff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+}
+#main-more-info #curriculum-matrix-section div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+#main-more-info #curriculum-matrix-section div img {
+  height: 580px;
+}
+#main-more-info #link-more-info div p {
+  margin: 10px;
+  font-size: 16px;
+}
+#main-more-info #link-more-info div p a {
+  color: #111D4A;
 }
 
 * {
