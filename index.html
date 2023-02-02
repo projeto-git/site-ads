@@ -12,8 +12,8 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li> <a href="">Sobre</a></li>
-                <li> <a href="">Contato</a></li>
+                <li> <a href="#about-section">Sobre</a></li>
+                <li> <a href="#contact-section">Contato</a></li>
                 <li> <a href="more_info.html">Mais informações</a></li>
             </ul>
         </nav>
@@ -43,22 +43,26 @@
         </section>
 
         <section id="contact-section">
-            <div>
-                <h2>Contato</h2>
+            <div id="text-contact">
+                <h2>Contato:</h2>
                 <ul>
                     <li>(83) 3532-4184 </li>
                     <li>cads.cz@ifpb.edu.br</li>
                  </ul>
-                 <div>
-                    <form action="">
+            </div>     
+            <div>
+                <form action="">
+                    <fieldset>
+                        <legend>Dúvidas?</legend>
                         <label for="name">Nome:</label>
                         <input type="text" name="name">
                         <label for="email">Email:</label>
                         <input type="text" name="email">
-                        <label for="message">Messagem:</label>
+                        <label for="message">Mensagem:</label>
                         <input type="text" name="message">
                         <button>Enviar</button>
-                    </form>
+                    </fieldset>
+                </form>
             </div>
         </section>
     </main>

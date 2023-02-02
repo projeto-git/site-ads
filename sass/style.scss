@@ -2,7 +2,9 @@
 
 @import "variables.scss";
 @import "pages/home.scss";
+@import "pages/about.scss";
 @import "pages/info.scss";
+@import "pages/contact.scss";
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -12,5 +14,17 @@
     box-sizing: border-box;
  }
 
+ @media(max-width:850px){
+    #shadow{
+        width: 800px;
+        section{
+            #info{
+                h1{
+                    font-size: 3px;
+                }
+            }
+        }
+    }
+ }
 
 

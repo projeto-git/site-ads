@@ -2,7 +2,7 @@
 header {
   background-color: #111D4A;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.575);
   position: fixed;
 }
@@ -23,18 +23,19 @@ header nav ul li a {
   background-position: right;
   background-size: cover;
   background-clip: border-box;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
 }
 #home-page-section #shadow {
-  height: 100vh;
+  min-height: 100vh;
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), black);
   display: flex;
 }
 #home-page-section #shadow section {
   width: 1000px;
-  height: 250px;
+  min-height: 250px;
   margin-top: 220px;
+  margin-bottom: 100px;
   padding: 20px;
   color: #ffffff;
 }
@@ -75,6 +76,29 @@ header nav ul li a {
   border: 2px solid #ffffff;
   background-color: #ffffff;
   color: #111D4A;
+}
+
+#about-section {
+  min-height: 70vh;
+}
+#about-section div {
+  margin: 50px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#about-section div h2 {
+  color: #111D4A;
+  font-size: 40px;
+  text-align: center;
+}
+#about-section div p {
+  text-align: justify;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 #main-more-info {
@@ -152,12 +176,74 @@ header nav ul li a {
   color: #111D4A;
 }
 
+#contact-section {
+  background-color: #111D4A;
+  min-height: 50vh;
+  display: flex;
+  padding: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#contact-section #text-contact {
+  width: 300px;
+  padding: 30px;
+  margin-top: 20px;
+  color: #ffffff;
+}
+#contact-section #text-contact h2 {
+  font-size: 35px;
+}
+#contact-section #text-contact ul {
+  list-style: none;
+}
+#contact-section #text-contact ul li {
+  font-size: 20px;
+  margin: 10px 0px;
+}
+#contact-section div form fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 20px;
+  color: #ffffff;
+  border: 0.5px solid #ffffff;
+}
+#contact-section div form fieldset legend {
+  font-size: 25px;
+  text-align: center;
+}
+#contact-section div form fieldset input {
+  border: 1.5px solid #ffffff;
+  height: 40px;
+  outline: none;
+  padding: 5px;
+  border-radius: 8px;
+  color: #111D4A;
+}
+#contact-section div form fieldset button {
+  height: 35px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #2D82B7;
+  color: #ffffff;
+  border: none;
+}
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+@media (max-width: 850px) {
+  #shadow {
+    width: 800px;
+  }
+  #shadow section #info h1 {
+    font-size: 3px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+#about-section{
+    min-height: 70vh;
+    div{
+        margin: 50px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        h2{
+            color: $dark-blue;
+            font-size: 40px;
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+            line-height: 30px;
+            font-size: 18px;
+        }
+    }
+}
