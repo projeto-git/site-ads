@@ -10,13 +10,26 @@
 <body>
     <header>
         <nav>
-            <ul>
+            <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li> <a href="#about-section">Sobre</a></li>
                 <li> <a href="#contact-section">Contato</a></li>
                 <li> <a href="more_info.html">Mais informações</a></li>
             </ul>
+            <div class="menu-burger" onclick="abrirMenu()">
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+            </div>
         </nav>
+        <div id="burger">
+            <ul id="menu-burger-links">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"> <a href="#about-section">Sobre</a></li>
+                <li class="menu-item"> <a href="#contact-section">Contato</a></li>
+                <li class="menu-item"> <a href="more_info.html">Mais informações</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section id="home-page-section">
@@ -50,21 +63,22 @@
                     <li>cads.cz@ifpb.edu.br</li>
                  </ul>
             </div>     
-            <div>
+            <div id="section-form">
                 <form action="">
-                    <fieldset>
                         <legend>Dúvidas?</legend>
-                        <label for="name">Nome:</label>
-                        <input type="text" name="name">
-                        <label for="email">Email:</label>
-                        <input type="text" name="email">
-                        <label for="message">Mensagem:</label>
-                        <input type="text" name="message">
-                        <button>Enviar</button>
-                    </fieldset>
+                        <div>
+                            <label for="name">Nome:</label>
+                            <input type="text" name="name">
+                            <label for="email">Email:</label>
+                            <input type="text" name="email">
+                            <label for="message">Mensagem:</label>
+                            <input type="text" name="message">
+                            <button>Enviar</button>
+                        </div>
                 </form>
             </div>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

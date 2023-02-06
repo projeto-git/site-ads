@@ -14,17 +14,64 @@
     box-sizing: border-box;
  }
 
- @media(max-width:850px){
-    #shadow{
-        width: 800px;
-        section{
-            #info{
-                h1{
-                    font-size: 3px;
+ @media(max-width:870px){
+    #home-page-section{
+        #shadow{
+            section{
+                #info{
+                    h1{
+                        font-size: 35px;
+                    }
                 }
             }
         }
+    }        
+ }
+
+ @media(max-width:567px) {
+    header{
+        display: grid;
     }
+    nav {
+        margin: 0;
+    }
+    #menu{
+        display: none;
+    }
+    .menu-burger{
+        display: block;
+        margin: 10px;
+     }
+    #home-page-section{
+        #shadow{
+            section{
+                margin-top: 125px;
+                #info{
+                   flex-direction: column;
+                   h1{
+                    font-size: 25px;
+                   }
+                   #logo{
+                    display: none;
+                    
+                   }
+                }
+            }
+        }
+    }  
+    #about-section{
+        div{
+            margin: 20px;
+            padding: 10px;
+            p{
+                font-size: 16px;
+            }
+            h2{
+                font-size: 30px;
+            }
+        }
+    }      
+
  }
 
 

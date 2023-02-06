@@ -10,13 +10,26 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li> <a href="index.html">Home</a></li>
-                <li> <a href="">Sobre</a></li>
-                <li> <a href="">Contato</a></li>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li> <a href="index.html#about-section">Sobre</a></li>
+                <li> <a href="index.html#contact-section">Contato</a></li>
                 <li> <a href="more_info.html">Mais informações</a></li>
             </ul>
+            <div class="menu-burger" onclick="abrirMenu()">
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+                <div class="burger-item"></div>
+            </div>
         </nav>
+        <div id="burger">
+            <ul id="menu-burger-links">
+                <li class="menu-item"><a href="index.html">Home</a></li>
+                <li class="menu-item"> <a href="#about-section">Sobre</a></li>
+                <li class="menu-item"> <a href="#contact-section">Contato</a></li>
+                <li class="menu-item"> <a href="more_info.html">Mais informações</a></li>
+            </ul>
+        </div>
     </header>
     <main id="main-more-info">
         <section id="presentation-section">
@@ -113,5 +126,6 @@
             </section>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
