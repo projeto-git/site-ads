@@ -27,12 +27,16 @@
         width: 500px;
         form{
             width: 100%;
+
                 div{
                     display: flex;
                     flex-direction: column;
                     max-width: 500px;
                     padding: 20px;
                     color: $white;
+                }
+                label{
+                    margin-bottom: 5px;
                 }
                 legend{
                     font-size: 25px;

@@ -49,7 +49,7 @@ header {
   background-color: #111D4A;
   width: 100%;
   min-height: 12vh;
-  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.575);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.575);
   position: fixed;
   display: flex;
   align-items: center;
@@ -73,6 +73,10 @@ header nav ul {
 }
 header nav ul li a {
   color: #ffffff;
+  transition: 0.8s;
+}
+header nav ul li a:hover {
+  color: #2D82B7;
 }
 
 #home-page-section {
@@ -130,9 +134,16 @@ header nav ul li a {
   cursor: pointer;
   transition: 1s;
 }
+#home-page-section #shadow section button a {
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
 #home-page-section #shadow section button:hover {
   border: 2px solid #ffffff;
   background-color: #ffffff;
+}
+#home-page-section #shadow section button:hover a {
   color: #111D4A;
 }
 
@@ -273,6 +284,9 @@ header nav ul li a {
   max-width: 500px;
   padding: 20px;
   color: #ffffff;
+}
+#contact-section #section-form form label {
+  margin-bottom: 5px;
 }
 #contact-section #section-form form legend {
   font-size: 25px;
