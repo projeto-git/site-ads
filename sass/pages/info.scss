@@ -1,15 +1,15 @@
 #main-more-info{
     min-height: 100vh;
-    padding-top: 70px;
     #shadow-info{
       background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.64) ,black); 
       width: 100%;
-      min-height: 32vh;
+      min-height: 35vh;
       display: flex;
       align-items: center;
       justify-content: center;
           div {
               h1{
+                  margin-top: 70px ;
                   font-size: 3.5rem;
                   color: $white;
               }
@@ -19,7 +19,7 @@
      background-image: url(../../images/backgroud-image-more-info.jpg);
      background-size: cover;
      background-attachment: fixed;
-     height: 32vh;
+     min-height: 35vh;
     } 
     #information-section{
         padding: 20px;
