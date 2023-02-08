@@ -80,7 +80,7 @@ header nav ul li a:hover {
 }
 
 #home-page-section {
-  background-image: url(../../images/backgroud-image.jpg);
+  background-image: url(../images/backgroud-image.jpg);
   background-position: right;
   background-size: cover;
   background-clip: border-box;
@@ -187,10 +187,12 @@ header nav ul li a:hover {
   color: #ffffff;
 }
 #main-more-info #presentation-section {
-  background-image: url(../../images/backgroud-image-more-info.jpg);
   background-size: cover;
   background-attachment: fixed;
   min-height: 35vh;
+}
+#presentation-section{
+  background-image: url(../images/backgroud-image-more-info.jpg);
 }
 #main-more-info #information-section {
   padding: 20px;
